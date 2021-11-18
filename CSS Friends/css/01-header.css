@@ -3,4 +3,21 @@ body {
     font-weight: 900;
     font-size: 22px;
 }
+.header{
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.header-logo{
+    justify-self: flex-start;
+}
+.header-nav{
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+}
+.header-list{
+
+}
 
