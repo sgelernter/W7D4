@@ -21,8 +21,8 @@
     }
   }
 
-  span {
-
+  li:last-of-type {
+    background-color: rgb(240, 240, 240);
   }
 }
 
@@ -36,7 +36,8 @@
     }
 
     > li:last-of-type {
-  
+      background-color: rgb(240, 240, 240);
+      font-size: larger;
     }
   }
   
