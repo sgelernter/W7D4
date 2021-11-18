@@ -1,5 +1,8 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 15px;
 }
 
 .left-nav > ul,
@@ -9,7 +12,10 @@
 
 .left-nav {
 
+
   > ul {
+    display: flex;
+    align-items: flex-start;
     > li {
 
     }
@@ -22,10 +28,11 @@
 
 .right-nav  {
 
-  > ul {
+  > ul {  display: flex;
+    align-items: flex-end;
 
     > li {
-  
+      
     }
 
     > li:last-of-type {

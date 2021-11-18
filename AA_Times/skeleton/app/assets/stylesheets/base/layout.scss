@@ -11,17 +11,22 @@ body {
 
 button {
 	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
+	border-color: black;
+	border: 1px solid black;
+	// color: black;
+	font-weight: 790;
+	padding: 7px;
+	border-radius: 5%;
 	// transition:
-	// font-family:
 	// text-transform:
 	// font-size:
 	// text-align:
 }
+
+button i {
+	padding-right: 10px;
+}
+
 
 button:hover {
 	// background-color:
